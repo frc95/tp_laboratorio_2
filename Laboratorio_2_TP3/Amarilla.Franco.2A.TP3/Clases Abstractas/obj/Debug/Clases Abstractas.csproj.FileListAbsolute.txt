@@ -1,0 +1,9 @@
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CopyComplete
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache

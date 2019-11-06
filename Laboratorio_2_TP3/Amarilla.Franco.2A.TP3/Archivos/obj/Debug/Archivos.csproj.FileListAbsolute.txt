@@ -1,0 +1,6 @@
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Archivos\bin\Debug\Archivos.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Archivos\obj\Debug\Archivos.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Archivos\obj\Debug\Archivos.pdb

@@ -1,0 +1,5 @@
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Excepciones\obj\Debug\Excepciones.pdb
