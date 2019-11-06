@@ -1,0 +1,16 @@
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Test.exe.config
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Test.exe
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Test.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\obj\Debug\Test.exe
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\obj\Debug\Test.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Clases Abstractas.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Clases Abstractas.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Clases Instanciables.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Clases Instanciables.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Archivos.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Excepciones.dll
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Archivos.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Excepciones.pdb
+C:\Users\juan\Desktop\clases\clases Laboratorio 2\Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\obj\Debug\Test.csprojAssemblyReference.cache
