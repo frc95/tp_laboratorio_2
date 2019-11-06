@@ -12,11 +12,14 @@ namespace EntidadesAbstractas
     /// </summary>
     public abstract class Persona
     {
+        #region ATRIBUTOS
         private string apellido;
         private int dni;
         private ENacionalidad nacionalidad;
         private string nombre;
+        #endregion
 
+        #region PROPIEDADES
         /// <summary>
         /// En caso de escritura se validara el apellido.
         /// </summary>
@@ -53,7 +56,9 @@ namespace EntidadesAbstractas
         {
             set { this.DNI = this.ValidarDni(this.Nacionalidad,value); }
         }
+        #endregion
 
+        #region CONSTRUCTORES
         public Persona()
         {
             this.Nombre = "";
@@ -78,6 +83,9 @@ namespace EntidadesAbstractas
             this.Nacionalidad = nacionalidad;
             this.StringToDNI = dni;
         }
+        #endregion
+
+        #region METODOS
         /// <summary>
         /// Retorna los datos de la persona
         /// </summary>
@@ -155,7 +163,7 @@ namespace EntidadesAbstractas
             }
             return dato;
         }
-
+        #endregion
 
         public enum ENacionalidad
         {

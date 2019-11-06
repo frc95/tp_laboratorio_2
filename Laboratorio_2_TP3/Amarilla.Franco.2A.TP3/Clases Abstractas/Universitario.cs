@@ -14,6 +14,7 @@ namespace EntidadesAbstractas
     {
         private int legajo;
 
+        #region METODOS
         /// <summary>
         /// Valida si el objeto es de tipo Universitario
         /// </summary>
@@ -41,7 +42,10 @@ namespace EntidadesAbstractas
             datos.AppendFormat("LEGAJO: {0}\n", this.legajo);
             return datos.ToString();
         }
-          
+        protected abstract string ParticiparEnClase();
+        #endregion
+
+        #region OPERADORES
         /// <summary>
         /// Valida si los 2 universitarios son del tipo Universitario y si tienen el mismo DNI o legajo
         /// </summary>
@@ -70,10 +74,9 @@ namespace EntidadesAbstractas
             
             return !(pg1==pg2);
         }
+        #endregion
 
-        
-        protected abstract string ParticiparEnClase();
-        
+        #region CONSTRUCTORES
         public Universitario():base()
         {
             this.legajo = 0;
@@ -83,5 +86,6 @@ namespace EntidadesAbstractas
         {
             this.legajo = legajo;
         }
+        #endregion
     }
 }
