@@ -11,9 +11,14 @@ namespace Clases_Instanciables
 {
     public class Jornada
     {
+        #region ATRIBUTOS
+
         private List<Alumno> alumnos;
         private Universidad.EClases clase;
         private Profesor instructor;
+        #endregion
+
+        #region PROPIEDADES
 
         public List<Alumno> Alumnos
         {
@@ -30,6 +35,22 @@ namespace Clases_Instanciables
             get { return this.instructor; }
             set { this.instructor = value; }
         }
+        #endregion
+
+        #region CONSTRUCTORES
+        public Jornada()
+        {
+            this.alumnos = new List<Alumno>();
+        }
+        public Jornada(Universidad.EClases clase, Profesor instructor):this()
+        {
+            this.Clase = clase;
+            this.instructor = instructor;
+        }
+        #endregion
+
+        #region METODOS
+
         /// <summary>
         /// Guardara los datos en un archivo de texto
         /// La ruta es: Laboratorio_2_TP3\Amarilla.Franco.2A.TP3\Test\bin\Debug\Jornada.txt
@@ -39,7 +60,7 @@ namespace Clases_Instanciables
         public static bool Guardar(Jornada jornada)
         {
             bool validar = false;
-            Texto t=new Texto();
+            Texto t = new Texto();
             try
             {
                 if (t.Guardar("Jornada.txt", jornada.ToString()))
@@ -51,21 +72,12 @@ namespace Clases_Instanciables
                     throw new Exception();
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 throw new ArchivosException(e);
             }
-            
+
             return validar;
-        }
-        public Jornada()
-        {
-            this.alumnos = new List<Alumno>();
-        }
-        public Jornada(Universidad.EClases clase, Profesor instructor):this()
-        {
-            this.Clase = clase;
-            this.instructor = instructor;
         }
 
         /// <summary>
@@ -96,6 +108,30 @@ namespace Clases_Instanciables
             return datos;
         }
 
+        /// <summary>
+        /// Mostrara todos los datos de la jornada
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            StringBuilder datos = new StringBuilder();
+
+            datos.Append("CLASE DE " + Clase.ToString() + " POR ");
+            datos.AppendLine(this.Instructor.ToString());
+            datos.AppendLine("ALUMNOS: ");
+
+            foreach (Alumno auxAlumno in this.Alumnos)
+            {
+                datos.AppendLine(auxAlumno.ToString());
+            }
+
+            datos.AppendLine("<-------------------------------------->");
+
+            return datos.ToString();
+        }
+        #endregion
+
+        #region OPERADORES
         /// <summary>
         /// Una Jornada será igual a un Alumno si el mismo participa de la clase.
         /// </summary>
@@ -141,27 +177,9 @@ namespace Clases_Instanciables
             }
             return j;
         }
+        #endregion
 
-        /// <summary>
-        /// Mostrara todos los datos de la jornada
-        /// </summary>
-        /// <returns></returns>
-        public override string ToString()
-        {
-            StringBuilder datos = new StringBuilder();
-            
-            datos.Append("CLASE DE "+Clase.ToString()+" POR ");
-            datos.AppendLine(this.Instructor.ToString());
-            datos.AppendLine("ALUMNOS: ");
-            
-            foreach(Alumno auxAlumno in this.Alumnos)
-            {
-                datos.AppendLine(auxAlumno.ToString());
-            }
 
-            datos.AppendLine("<-------------------------------------->");
-            
-            return datos.ToString();
-        }
+        
     }
 }

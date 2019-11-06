@@ -12,9 +12,13 @@ namespace Clases_Instanciables
 {
     public class Universidad
     {
+        #region ATRIBUTOS
         private List<Alumno> alumnos;
         private List<Jornada> jornada;
         private List<Profesor> profesores;
+        #endregion
+
+        #region PROPIEDADES
 
         public List<Alumno> Alumnos
         {
@@ -37,6 +41,9 @@ namespace Clases_Instanciables
             set { this.Jornadas[i] = value; }
 
         }
+        #endregion
+
+        #region METODOS
         /// <summary>
         /// Serializa los datos de la Universidad en un XML,
         /// incluyendo todos los datos de sus Profesores, Alumnos y Jornadas.
@@ -105,6 +112,18 @@ namespace Clases_Instanciables
             
             return datos.ToString();
         }
+
+        /// <summary>
+        /// Retornara los datos de universidad
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return Universidad.MostrarDatos(this);
+        }
+        #endregion
+
+        #region OPERADORES
 
         /// <summary>
         /// Una Universidad será igual a un Alumno si el mismo está inscripto en él.
@@ -256,15 +275,8 @@ namespace Clases_Instanciables
             g.Jornadas.Add(nuevaJornada);
             return g;
         }
-
-        /// <summary>
-        /// Retornara los datos de universidad
-        /// </summary>
-        /// <returns></returns>
-        public override string ToString()
-        {
-            return Universidad.MostrarDatos(this);
-        }
+        #endregion
+        
         public Universidad()
         {
             this.Alumnos = new List<Alumno>();

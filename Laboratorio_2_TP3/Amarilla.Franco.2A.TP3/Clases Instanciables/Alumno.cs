@@ -14,10 +14,12 @@ namespace Clases_Instanciables
     public sealed class Alumno : Universitario
            
     {
-        
+        #region ATRIBUTOS
         private Universidad.EClases claseQueToma;
         private EEstadoCuenta estadoCuenta;
+        #endregion
 
+        #region CONSTRUCTORES
         public Alumno():base()
         {
             this.claseQueToma = 0;
@@ -38,21 +40,9 @@ namespace Clases_Instanciables
             
             this.estadoCuenta = estadoCuenta;
         }
+        #endregion
 
-        /// <summary>
-        /// Sobreescribe el metodo con todos los datos del alumno
-        /// </summary>
-        /// <returns></returns>
-        protected override string MostrarDatos()
-        {
-            StringBuilder datos = new StringBuilder();
-            datos.Append(base.MostrarDatos());
-            datos.AppendLine(this.ParticiparEnClase());
-            datos.AppendFormat("Estado de cuenta: {0}\n", this.estadoCuenta);
-            return datos.ToString();
-            
-        }
-
+        #region OPERADORES
         /// <summary>
         /// Un Alumno será igual a un EClase si toma esa clase y su estado de cuenta no es Deudor.
         /// </summary>
@@ -77,6 +67,22 @@ namespace Clases_Instanciables
             
             return !(a==clase);
         }
+        #endregion
+
+        #region METODOS
+        /// <summary>
+        /// Sobreescribe el metodo con todos los datos del alumno
+        /// </summary>
+        /// <returns></returns>
+        protected override string MostrarDatos()
+        {
+            StringBuilder datos = new StringBuilder();
+            datos.Append(base.MostrarDatos());
+            datos.AppendLine(this.ParticiparEnClase());
+            datos.AppendFormat("Estado de cuenta: {0}\n", this.estadoCuenta);
+            return datos.ToString();
+
+        }
 
         /// <summary>
         /// Retorna la clase que toma el alumno
@@ -95,6 +101,7 @@ namespace Clases_Instanciables
         {
             return this.MostrarDatos();
         }
+        #endregion
 
         public enum EEstadoCuenta
         {

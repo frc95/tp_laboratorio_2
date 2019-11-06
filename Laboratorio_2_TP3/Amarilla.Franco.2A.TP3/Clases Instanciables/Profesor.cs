@@ -13,9 +13,12 @@ namespace Clases_Instanciables
     /// </summary>
     public sealed class Profesor : Universitario
     {
+        #region ATRIBUTOS
         private Queue<Universidad.EClases> clasesDelDia;
         private static Random random;
+        #endregion
 
+        #region METODOS
         /// <summary>
         /// Se asignan dos clases al azar al profesor
         /// </summary>
@@ -36,6 +39,31 @@ namespace Clases_Instanciables
             return datos.ToString();
         }
 
+        /// <summary>
+        /// Retornará el nombre de la clases que da.
+        /// </summary>
+        /// <returns></returns>
+        protected override string ParticiparEnClase()
+        {
+            StringBuilder datos = new StringBuilder();
+            foreach (Universidad.EClases clase in this.clasesDelDia)
+            {
+                datos.Append(clase + "\n");
+            }
+            return "CLASES DEL DIA: \n" + datos.ToString();
+        }
+
+        /// <summary>
+        /// Retornara todos los datos del profesor
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return this.MostrarDatos();
+        }
+        #endregion
+
+        #region OPERADORES
         /// <summary>
         /// Un Profesor será igual a un EClase si da esa clase.
         /// </summary>
@@ -62,21 +90,9 @@ namespace Clases_Instanciables
         { 
             return !(i==clase);
         }
+        #endregion
 
-        /// <summary>
-        /// Retornará el nombre de la clases que da.
-        /// </summary>
-        /// <returns></returns>
-        protected override string ParticiparEnClase()
-        {
-            StringBuilder datos = new StringBuilder();
-            foreach(Universidad.EClases clase in this.clasesDelDia)
-            {
-                datos.Append(clase+"\n");
-            }
-            return "CLASES DEL DIA: \n"+datos.ToString();
-        }
-
+        #region CONSTRUCTORES
         public Profesor() : base()
         {
             this.clasesDelDia = new Queue<Universidad.EClases>();
@@ -92,13 +108,7 @@ namespace Clases_Instanciables
             this.clasesDelDia = new Queue<Universidad.EClases>();
             this._randomClases();
         }
-        /// <summary>
-        /// Retornara todos los datos del profesor
-        /// </summary>
-        /// <returns></returns>
-        public override string ToString()
-        {
-            return this.MostrarDatos();
-        }
+        #endregion
+       
     }
 }
